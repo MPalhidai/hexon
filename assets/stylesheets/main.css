@@ -6,7 +6,7 @@ body {
 
 
 #cover {
-  background: url("../images/hexon-bg (1).svg") no-repeat center center scroll;
+  background: url("../images/hexon-bg.svg") no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -30,8 +30,27 @@ body {
   width: 36px;
 }
 
+.main {
+  font-size: 4rem;
+  font-weight: 300;
+  color: #343a40;
+}
+
+#main {
+  font-weight: 800;
+}
+
+.submain {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+#submain {
+  font-weight: 700;
+}
+
 #small {
-  font-size: 80%;
+  font-size: 85%;
 }
 
 /* END OF COVER */
