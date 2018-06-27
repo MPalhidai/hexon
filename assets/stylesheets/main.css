@@ -1,5 +1,5 @@
 body {
-  font-family: montserrat;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* START OF COVER */
@@ -58,17 +58,27 @@ body {
 /* START OF APP */
 
 /* Style rules for Slick beauty section*/
-#live {
-  font-family: "Montserrat", sans-serif;
+
+#base {
+  color: #c1c1c1;
+  font-size: 75%;
+  letter-spacing: 0.4rem;
+  font-weight: 500;
+}
+
+#touch {
+  color: #696969;
+  font-size: 75%;
+  line-height: 2;
 }
 
 .slick-row {
-  background: url("../images/pink_bg.jpg");
+  background: url("../images/pink_bg.jpg") no-repeat center center scroll;
   background-size: contain;
 }
 
 .slick-card {
-  background: url("../images/hand-cellphone.jpg");
+  background: url("../images/hand-cellphone.jpg") no-repeat center center scroll;
   background-size: cover;
 }
 
@@ -89,12 +99,6 @@ body {
 .btn-group .btn {
   color: gray;
   font-weight: 900;
-}
-
-.card-title {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  font-size: 4rem;
 }
 
 .pink_number {
@@ -123,19 +127,7 @@ body {
   height: 100vh;
 }
 
-#base {
-  color: dimgray;
-  font-size: 60%;
-  letter-spacing: 0.4rem;
-  margin-bottom: 8px;
-  font-weight: 900;
-}
 
-#touch {
-  color: dimgray;
-  font-size: 70%;
-  margin-bottom: 2px;
-}
 
 #button {
   padding: 8px 40px;
