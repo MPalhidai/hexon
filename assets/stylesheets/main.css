@@ -13,15 +13,21 @@ nav h5 {
 }
 
 #cover {
-  background: url("../images/hexon_bg.png");
+  background: url("../images/hexon-bg.svg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   font-family: "Montserrat";
-  font-weight: 100;
 }
 
 #cover .bottom_text {
   color: white;
+}
+
+.nav-icon {
+  width: 36px;
 }
 
 #small {
