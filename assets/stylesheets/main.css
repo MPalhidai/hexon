@@ -1,5 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: rgba(100,100,100,0.1);
 }
 
 /* START OF COVER */
@@ -72,14 +73,18 @@ body {
   line-height: 2;
 }
 
-.slick-row {
-  background: url("../images/pink_bg.jpg") no-repeat center center scroll;
-  background-size: contain;
+.bg_shape {
+  background: linear-gradient(#d4306d, #ffecf6);
+  -webkit-clip-path: inset(5% 0 5% 0);
+  clip-path: inset(5% 0 5% 0);
+  position: absolute;
+  height: 80vh;
 }
 
 .slick-card {
   background: url("../images/hand-cellphone.jpg") no-repeat center center scroll;
   background-size: cover;
+  height: 80vh;
 }
 
 .slick-bar {
