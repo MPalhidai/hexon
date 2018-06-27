@@ -1,29 +1,29 @@
-/* START OF COVER */
-nav h5, nav a, nav a:hover {
-  font-family: quicksand, montserrat, sans-serif;
-  color: gray;
-  display: inline;
-  margin-bottom: 0;
-  font-size: 0.8rem;
+body {
+  font-family: montserrat;
 }
 
-nav h5 {
-  line-height: 2rem;
-  font-size: 1.1rem;
-}
+/* START OF COVER */
+
 
 #cover {
-  background: url("../images/hexon-bg.svg") no-repeat center center scroll;
+  background: url("../images/hexon-bg (1).svg") no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   min-height: 100vh;
-  font-family: "Montserrat";
 }
 
-#cover .bottom_text {
-  color: white;
+#title {
+  font-weight: 400;
+  color: #808080;
+  display: inline;
+}
+
+.nav-links, .nav-links:hover {
+  color: #c1c1c1;
+  font-weight: 600;
+  font-size: 0.9rem;
 }
 
 .nav-icon {
