@@ -58,8 +58,6 @@ body {
 
 /* START OF APP */
 
-/* Style rules for Slick beauty section*/
-
 #base {
   color: #c1c1c1;
   font-size: 75%;
@@ -142,7 +140,7 @@ body {
   padding: 8px 40px;
   border: 1px solid rgba(100,100,100,0.1);
   border-radius: 1px;
-  background: transparent;
+  background: rgb(239, 239, 239);
 }
 
 #hire button {
@@ -239,6 +237,7 @@ body {
   color: gray;
   font-size: 75%;
   margin-left: 1rem;
+  display: inline;
 }
 /* END OF FOOTER */
 
