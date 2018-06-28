@@ -69,27 +69,33 @@ body {
 
 #touch {
   color: #696969;
-  font-size: 75%;
+  font-size: 85%;
   line-height: 2;
 }
 
 .bg_shape {
   background: linear-gradient(#d4306d, #ffecf6);
-  -webkit-clip-path: inset(5% 0 5% 0);
-  clip-path: inset(5% 0 5% 0);
+  -webkit-clip-path: inset(10% 0 10% 0);
+  clip-path: inset(10% 0 10% 0);
   position: absolute;
   height: 80vh;
+}
+
+.card {
+  word-wrap: normal;
 }
 
 .slick-card {
   background: url("../images/hand-cellphone.jpg") no-repeat center center scroll;
   background-size: cover;
   height: 80vh;
+  border-radius: 25px;
+  box-shadow: 0px 0px 20px 20px #8281811f;
 }
 
 .slick-bar {
   border-top: solid 4px #fe2377;
-  margin-top: 10%;
+  margin-top: 0.7rem;
 }
 
 .slick-btn {
@@ -101,18 +107,18 @@ body {
   padding-left: 0;
 }
 
-.btn-group .btn {
+#gray {
   color: gray;
-  font-weight: 900;
+  line-height: 1.5;
+  font-size: 120%;
 }
 
 .pink_number {
-  font-family: "Montserrat", sans-serif;
   color: #fd3483;
   font-size: 4rem;
-  display: inline-block;
-  vertical-align: top;
-
+  line-height: 0.8;
+  line-height: 0.9;
+  font-weight: 300;
 }
 
 /* END OF APP */
@@ -126,16 +132,17 @@ body {
 
 /* START OF HIRE */
 #hire {
-  font-family: montserrat, sans-serif;
   background-image: url(../images/hire5.jpg);
   background-size: cover;
   height: 100vh;
 }
 
-
-
 #button {
+  color: #343a40;
   padding: 8px 40px;
+  border: 1px solid rgba(100,100,100,0.1);
+  border-radius: 1px;
+  background: transparent;
 }
 
 #hire button {
@@ -150,7 +157,7 @@ body {
 
 /* START OF CONTACT */
 #contact {
-  font-family: quicksand, montserrat, sans-serif;
+  font-family: quicksand;
   background: -moz-radial-gradient(lightgray 7%, transparent 7%),
               -moz-radial-gradient(lightgray 7%, transparent 7%),
               #d2d2d259;
@@ -182,11 +189,11 @@ body {
   background-color: white;
   height: 40px;
   width: 40px;
-  box-shadow: 0px 0px 20px 0px grey;
+  box-shadow: 0px 0px 20px 0px #d2d2d2;
 }
 
 #submit:hover {
-  box-shadow: 0px 0px 200px 0px grey;
+  box-shadow: 0px 0px 200px 0px #d2d2d2;
 }
 
 #submit::selection {
