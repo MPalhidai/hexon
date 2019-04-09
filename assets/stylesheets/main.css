@@ -7,8 +7,7 @@ body {
 
 
 #cover {
-  /* background: url("../images/hexon-bg.svg") no-repeat center center scroll; */
-  background: url("https://hexon-creative.firebaseapp.com/static/img/hexon-backgrond.svg") no-repeat center center scroll;
+  background: url("../images/hexon-bg.svg") no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
